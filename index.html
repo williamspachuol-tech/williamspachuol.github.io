@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend Developer portfolio of Williams Pachuol showcasing projects, skills, and contact information.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Williams Pachuol | Portfolio</title>
+</head>
+<body>
+    <!-- HEADER & NAVIGATION -->
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">Pachuol</div>
+
+            <!-- Desktop Menu -->
+            <ul class="navlinks">
+                <li><a href="#Intro" class="navanchor">Home</a></li>
+                <li><a href="#Projects" class="navanchor">Projects</a></li>
+                <li><a href="#Skills" class="navanchor">Skills</a></li>
+                <li><a href="#About" class="navanchor">About</a></li>
+                <li><a href="#Contact" class="navanchor">Contact</a></li>
+            </ul>
+
+            <div class="btn-download">
+                <a href="#">Download CV</a>
+            </div>
+
+            <!-- Hamburger Menu for Mobile -->
+            <input type="checkbox" id="menu-toggle" aria-label="Menu Toggle">
+            <label class="hamburger" for="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <!-- Mobile Menu -->
+            <ul id="mobile-menu" class="mobile-navlinks">
+                <li><a href="#Intro" class="navanchor">Home</a></li>
+                <li><a href="#Projects" class="navanchor">Projects</a></li>
+                <li><a href="#Skills" class="navanchor">Skills</a></li>
+                <li><a href="#About" class="navanchor">About</a></li>
+                <li><a href="#Contact" class="navanchor">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO SECTION -->
+        <section id="Intro" class="hero-section">
+            <h1>Hello, I'm <span class="name">Williams Pachuol</span></h1>
+            <h3>Frontend Developer</h3>
+            <p class="hero-para">I design intuitive user experiences for tech startups, built to scale and grow sustainably.</p>
+            <img src="Images/Pachuol.jpg" alt="Portrait of Williams Pachuol" class="hero-image" loading="lazy">
+        </section>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- PROJECTS -->
+        <section>
+            <h2 id="Projects" class="main-headings">Projects</h2>
+            <div class="project-section">
+                <article class="project-card">
+                    <h3>DataBridge E-commerce Website</h3>
+                    <p>An existing e-commerce website optimized for performance, accessibility, and user experience. 
+                        Redesigned the product filtering and search system to be faster and fully accessible.
+                    </p>
+                    <a class="card-btn card-btn-1" href="#">View Project</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>Personal Portfolio</h3>
+                    <p>
+                        A responsive and modern portfolio website showcasing my skills, projects, 
+                        and professional experience. Built to highlight clean design and accessibility.
+                    </p>
+                    <a class="card-btn card-btn-2" href="#">View Project</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section>
+            <h2 id="Skills" class="main-headings">Skills</h2>
+            <article class="skills-section">
+                <h3>Core Skills</h3>
+                <ul class="skills-items">
+                    <li>HTML & CSS (Advanced)</li>
+                    <li>Responsive & Accessible Layouts</li>
+                    <li>UI Development</li>
+                    <li>JavaScript (Learning / In Progress)</li>
+                    <li>DOM Manipulation</li> 
+                    <li>Interactive UI Components</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- ABOUT -->
+        <section>
+            <h2 id="About" class="main-headings">About</h2>
+            <article class="about-section">
+                <h3>Behind the Code</h3>
+                <p>
+                    My journey into frontend development began with a curiosity for how things work on the web, 
+                    which evolved into a passion for building high-performance, inclusive digital products.
+                    Today, I specialize in HTML, CSS, and the modern JavaScript ecosystem, 
+                    focusing on the intersection of design systems and engineering.
+                </p>
+                <p>
+                    I believe code should not only be functional but also maintainable and accessible to everyone.
+                    When I'm not in my code editor, you can find me exploring local community projects 
+                    or staying ahead of the latest web performance trends.
+                </p>
+            </article>
+        </section>
+
+        <!-- CONTACT -->
+        <section>
+            <h2 id="Contact" class="main-headings">Get in Touch</h2>
+            <article class="contact-section">
+                <div class="content-section">
+                    <h3>Reach Out</h3>
+                    <p>
+                        I’m always excited to work on interesting problems and collaborate with passionate teams. 
+                        If you think we’d be a good fit, feel free to reach out.
+                    </p>
+                    <div class="cta-buttons">
+                        <a class="btn primary-btn" href="mailto:williamspachuol@gmail.com">Email Me</a>
+                        <a class="btn secondary-btn" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-section">
+        <h2 class="last-h2">Follow Me</h2>
+        <ul class="footer-icons">
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><img class="social-icons" src="Images/facebook.svg" alt="Facebook icon"></a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><img class="social-icons" src="Images/linkedin.svg" alt="LinkedIn icon"></a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img class="social-icons" src="Images/instagram.svg" alt="Instagram icon"></a></li>
+            <li><a href="https://tiktok.com" target="_blank" rel="noopener noreferrer"><img class="social-icons" src="Images/tiktok.svg" alt="TikTok icon"></a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><img class="social-icons" src="Images/youtube.svg" alt="YouTube icon"></a></li>
+        </ul>
+        <p class="last-text">@2026 | Williams Pachuol</p>
+    </footer>
+</body>
+</html>
