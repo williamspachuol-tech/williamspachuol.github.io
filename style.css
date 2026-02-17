@@ -31,7 +31,10 @@ img {
     padding: 10px 20px;
     height: 80px;
     background-color: #000;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     z-index: 1000;
 }
 
@@ -435,3 +438,4 @@ img {
     .content-section h3 { font-size: 1rem; }
     .btn { font-size: 0.9rem; padding: 8px 15px; }
 }
+
