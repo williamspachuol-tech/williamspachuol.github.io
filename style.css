@@ -29,7 +29,6 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    margin-bottom: 100px;
     height: 80px;
     background-color: #000;
     position: fixed;
@@ -146,6 +145,7 @@ img {
     text-align: center;
     background: linear-gradient(#90b3d6, #FAFAFA);
     padding: 50px 20px;
+    margin-top: 200px;
 }
 
 .hero-section h1 {
@@ -438,6 +438,7 @@ img {
     .content-section h3 { font-size: 1rem; }
     .btn { font-size: 0.9rem; padding: 8px 15px; }
 }
+
 
 
 
