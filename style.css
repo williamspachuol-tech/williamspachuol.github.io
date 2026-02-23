@@ -37,6 +37,7 @@ img {
     width: 100%;
     z-index: 1000;
     transition: 0.3s;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -440,6 +441,7 @@ img {
     .content-section h3 { font-size: 1rem; }
     .btn { font-size: 0.9rem; padding: 8px 15px; }
 }
+
 
 
 
