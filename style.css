@@ -147,7 +147,7 @@ img {
     text-align: center;
     background: linear-gradient(#90b3d6, #FAFAFA);
     padding: 50px 20px;
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero-section h1 {
@@ -440,6 +440,7 @@ img {
     .content-section h3 { font-size: 1rem; }
     .btn { font-size: 0.9rem; padding: 8px 15px; }
 }
+
 
 
 
