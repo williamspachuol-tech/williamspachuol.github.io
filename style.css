@@ -36,6 +36,7 @@ img {
     left: 0;
     width: 100%;
     z-index: 1000;
+    transition: 0.3s;
 }
 
 .logo {
@@ -51,6 +52,7 @@ img {
     list-style: none;
     display: flex;
     gap: 40px;
+    transition: 0.3s;
 }
 
 .navanchor {
@@ -438,6 +440,7 @@ img {
     .content-section h3 { font-size: 1rem; }
     .btn { font-size: 0.9rem; padding: 8px 15px; }
 }
+
 
 
 
